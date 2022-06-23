@@ -23,7 +23,6 @@ fruits_to_show = my_fruit_list.loc[fruits_selected]
 #display
 streamlit.dataframe(fruits_to_show)
 
-streamlit.stop()
 #New section to display fruityvice API response
 streamlit.header('Fruity Fruit Advice!') 
 
